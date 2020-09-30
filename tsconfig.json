@@ -7,8 +7,17 @@
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "strict": true, 
-    "baseUrl": "src",
+    "strict": true,
+    "baseUrl": ".",
   },
-  "include": ["src"]
+  "paths": {
+    "~assets/*": ["./src/assets"],
+    "~constants/*": ["./src/constants"],
+    "~components/*": ["./src/components"],
+    "~hooks/*": ["./src/hooks"],
+    "~navigation/*": ["./src/navigation"],
+    "~screens/*": ["./src/screens"],
+    "~types/*": ["./src/types"],
+  },
+
 }
